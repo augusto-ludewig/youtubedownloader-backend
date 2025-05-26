@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <api>
-
-  <h5>Use "python -m uvicorn main:app --reload" to start</h5>
   
   <strong><h1>FastAPI YouTube Downloader API</h1><br></strong>
   <strong><description>This API allows you to download YouTube videos by providing the video URL.</description><br></strong> 
@@ -9,14 +7,14 @@
 ![1609606275382](https://github.com/FranceCawich/YoutubeDownloader_FastAPi_Backend/assets/72179627/5cdfbfe5-cec3-4dab-9102-5ad8cff377e0)
   
 <setup>
-    <step>Install Python 3.7 or higher.</step><br>
+    <step>Install Python 3.1 </step><br>
     <step>Clone this repository.</step><br>
     <step>Install the required dependencies using pip:</step><br>
     <code>pip install -r requirements.txt</code>
   </setup>
   <strong><usage>
     <step>Start the FastAPI server by running the following command:</step><br>
-    <code>uvicorn app:app --reload</code><br>
+    <code>python -m uvicorn main:app --reload</code><br>
     <step>Send a POST request to the /download/ endpoint with a JSON payload containing the YouTube video URL. For example:</step><br>
     <request>
       <url>/download/</url><br>
